@@ -83,6 +83,9 @@
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fitty/2.3.2/fitty.min.js"></script>
   <script
+    var url = window.location.hostname;
+    var site_domain = document.querySelector('#site_domain');
+    site_domain.innerHTML = url;
     fitty('h1');
   </script>
 
