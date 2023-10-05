@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    height: 30vh; /* Set a fixed height to cover the viewport */
+    height: 50vh; /* Set a fixed height to cover the viewport */
 }
 
 .title {
