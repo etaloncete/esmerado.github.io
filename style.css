@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    height: 50vh; /* Set a fixed height to cover the viewport */
+    height: 30vh; /* Set a fixed height to cover the viewport */
 }
 
 .title {
@@ -64,12 +64,17 @@ label {
 /* Media Query for smaller screens (e.g., mobile devices) */
 @media (max-width: 768px) {
     .title {
-        font-size: 2rem;
+        font-size: 0;
     }
 
     .col {
         flex-direction: column; /* Stack hours, days, minutes, and seconds vertically */
         gap: 20px; /* Increase spacing between the items */
+    }
+
+    .overlay {
+   
+    height: 100vh; /* Set a fixed height to cover the viewport */
     }
 
     input {
