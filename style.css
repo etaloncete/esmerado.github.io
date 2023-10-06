@@ -68,14 +68,25 @@ label {
     }
 
     .col {
-        flex-direction: column; /* Stack hours, days, minutes, and seconds vertically */
-        gap: 20px; /* Increase spacing between the items */
+        max-width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row; /* Display hours, days, minutes, and seconds in a row */
+    justify-content: center; /* Center content horizontally */
+    text-align: center;
+    margin-top: 0px;
+    gap: 0px; /* Add some space between the columns */
     }
 
     .overlay {
-   
-    height: 100vh; /* Set a fixed height to cover the viewport */
+     padding: 1px;
+    height: 25vh; /* Set a fixed height to cover the viewport */
     }
+
+    label {
+    font-size: 15px;
+    font-weight: bold;
+}
 
     input {
         font-size: 20px;
