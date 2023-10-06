@@ -186,10 +186,12 @@ img {
 .footer {
     background-color: #0c4068;
     color: #fff;
-    padding: 30px 0;
+    padding: 30px 5px;
     text-align: center;
 }
 
 .colored-word {
-    color: red; /* Change the color to your desired color */
+    background: linear-gradient(to right, #FF0000, #AA0000); /* Red gradient colors */
+    -webkit-background-clip: text; /* Apply gradient within text */
+    color: transparent; 
 }
